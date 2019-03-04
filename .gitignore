@@ -1,0 +1,16 @@
+#Don't Track these folders
+
+resource/text_model/weights/
+
+#These types of files
+
+*.hdf5
+
+#These specific files
+resource/hastash_split_dump.txt
+resource/text_model/TestResults.txt.analysis
+resource/text_model/weights/model.json
+resource/text_model/weights/model.json.hdf5
+resource/text_model_2D/TestResults.txt.analysis
+resource/text_model_2D/weights/model.json
+resource/text_model_2D/weights/model.json.hdf5
